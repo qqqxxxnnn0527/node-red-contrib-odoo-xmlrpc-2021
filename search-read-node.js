@@ -46,9 +46,8 @@ module.exports = function (RED) {
                 }
                 var params = [];
                 params.push(inParams);
-< HEAD
 		params.push(msg.fields);
-e64060
+
                 //node.log('Search-reading for model "' + config.model + '"...');
                 odoo_inst.execute_kw(config.model, 'search_read', params, function (err, value) {
                     if (err) {
