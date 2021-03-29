@@ -22,6 +22,7 @@
       "odoo-xmlrpc-search-read": "search-read-node.js",
       "odoo-xmlrpc-create": "create-node.js",
       "odoo-xmlrpc-update": "update-node.js",
+      "odoo-xmlrpc-exec": "exec-node.js",
       "odoo-xmlrpc-unlink": "unlink-node.js"
     }
   },
