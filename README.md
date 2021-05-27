@@ -6,7 +6,7 @@ I picked up the work by https://github.com/crottolo/ and added a node to execute
 
 ## Example message properties
 
-msg.filters = [["|",["phone","ilike", msg.payload],["mobile","=", msg.payload]]];
+msg.filters = [["|",["phone","ilike", msg.payload],["mobile","=", msg.payload]]];  
 msg.filters = [[["bom_id","=", msg.bom_id]]];  
 msg.filters = [[["id","=", 23]]];
 
